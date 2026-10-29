@@ -1,0 +1,17 @@
+{
+  "base_url": "https://atendimento.tecnospeed.com.br",
+  "locale": "pt-br",
+  "timeout_segundos": 20,
+  "produtos": {
+    "PlugSign": {
+      "aliases": ["plugsign", "plug sign"],
+      "categorias": [24283461594647],
+      "secoes": []
+    },
+    "Plug4Market": {
+      "aliases": ["plug4market", "plug 4 market", "p4m"],
+      "categorias": [4410321200279],
+      "secoes": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "tecnospeed_docs": {
+        "type": "local",
+        "command": [
+          "/caminho/absoluto/para/mcp-tecnospeed/.venv/bin/python",
+          "-m",
+          "mcp_tecnospeed"
+        ],
+        "cwd": "/caminho/absoluto/para/mcp-tecnospeed",
+        "environment": {
+          "MCP_TECNOSPEED_CONFIG": "/caminho/absoluto/para/mcp-tecnospeed/config/products.json"
+        }
+      }
+    }
+  }
+}
