@@ -34,6 +34,7 @@ htmlcov/
 
 # Configuração local do OpenCode (contém caminhos absolutos da máquina)
 /opencode.json
+opencode.json
 
 # Editores e sistema
 .idea/
