@@ -1,11 +1,11 @@
 # mcp-tecnospeed
 
 Servidor MCP local que conecta agentes de programação (OpenCode) à documentação
-técnica pública da TecnoSpeed, hospedada no Zendesk Help Center.
+técnica pública da TecnoSpeed, hospedada no Centro de Atendimento do Zendesk.
 
 ## Requisitos
 
-- Python 3.11+ (recomendado 3.12)
+- Python 3.11+
 - Acesso à internet para consultar `atendimento.tecnospeed.com.br`
 - Nenhuma credencial ou token
 
@@ -124,7 +124,7 @@ curl -s "https://atendimento.tecnospeed.com.br/api/v2/help_center/pt-br/categori
 ```
 
 O servidor fala MCP via **stdio**. Ele não abre porta e não deve ser executado
-manualmente para uso normal: quem o inicia é o OpenCode.
+manualmente para uso normal: quem o inicia é o OpenCode/agente.
 
 Para uma verificação rápida de que o processo sobe e responde ao handshake,
 use um cliente MCP ou o MCP Inspector.
